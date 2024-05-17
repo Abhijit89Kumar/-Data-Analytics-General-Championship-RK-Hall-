@@ -1,35 +1,40 @@
-#Data Analytics General Championship - RK Hall
-This repository houses Jupyter notebooks and resources for advanced data analysis and machine learning tasks, including clustering, model fine-tuning, and a web application demo.
+# Data Analytics General Championship - RK Hall
 
-Folder Structure
-Notebook 1:
-Clustering Algorithms: Implements K-Means, Gaussian Mixture Model (GMM), DBSCAN, and HDBSCAN. Requires Final_hopefully.csv and Unclustered_Demographic.csv in the working directory.
-Required Files: Contains essential files like final_hopefully.csv, Social.csv, and the imputing_fxn.ipynb notebook for data preprocessing.
-For164 Zips-20240315T132840Z-001: Additional data files for analysis.
-Notebook 2:
-Fine-Tuning: Fine-tunes Mistral 7B and Gemma 2B models on LLm_on_10k_train.csv. Fine-tunes a BERT model on filtered_health_data.csv for resource connection tasks.
-Required Files: Includes the necessary data files for fine-tuning.
-Web-app Screenshots: Contains screenshots of the web application usage.
-Demo: A video demonstration of the web application.
-Output: A CSV file with sample inputs and corresponding outputs from the model.
-Setup Instructions
-Hugging Face Access:
+This repository showcases cutting-edge data analysis and machine learning techniques through a collection of Jupyter notebooks and resources. Explore clustering algorithms, fine-tune language models, and interact with a web application demo.
 
-Create a Hugging Face account.
-Generate a read access token under Settings -> Access Tokens.
-Create an environment variable named HF_READ_TOKEN and store the token value.
-Grant your notebook access to this environment variable.
-Model Weights:
+## 🚀 Key Features
 
-Download the following fine-tuned model weights and configurations from the provided dataset folders:
-model_llama2: 7B llama2 chathf model
-model_gemma: 2B gemma instruct model
-model_mistral: 7B mistral instruct model
-Place these folders within your Python environment.
-Data Files:
+- **Clustering Algorithms:** Uncover hidden patterns in your data using K-Means, Gaussian Mixture Model (GMM), DBSCAN, and HDBSCAN.
+- **Model Fine-Tuning:** Elevate model performance by fine-tuning Mistral 7B, Gemma 2B, and BERT on specific tasks.
+- **Web Application Demo:** Experience the power of these models firsthand through an interactive web app.
 
-Ensure all required CSV files are uploaded to the correct working directories as specified in each notebook's instructions.
-Hardware Requirements
-Minimum: A GPU with at least 50GB of VRAM is recommended for optimal performance.
-Alternative: If your GPU has less VRAM, you can load the models onto the CPU, but expect slower processing times.
-Important Note: This repository is designed for advanced users familiar with data analytics, machine learning, and model fine-tuning.  Please ensure you have the necessary technical knowledge and resources before proceeding.
+## 📂 Repository Structure
+
+- **Notebook 1:**
+    - **Clustering Algorithms:** Dive into various clustering techniques for in-depth data analysis (requires `Final_hopefully.csv` and `Unclustered_Demographic.csv`).
+    - **Required Files:** Essential data and the `imputing_fxn.ipynb` notebook for preprocessing.
+    - **For164 Zips-20240315T132840Z-001:** Additional data resources.
+- **Notebook 2:**
+    - **Fine-Tuning:** Enhance model performance on specific tasks using `LLm_on_10k_train.csv` and `filtered_health_data.csv`.
+    - **Required Files:** Access the datasets needed for fine-tuning.
+- **Web-app Screenshots:** Visualize the web app experience through screenshots.
+- **Demo:** A video walkthrough of the web application.
+- **Output:** Explore sample input-output pairs from the model in a CSV file.
+
+## 🚀 Getting Started
+
+1. **Hugging Face:** Get a read access token from your Hugging Face settings and store it as `HF_READ_TOKEN` in your environment.
+2. **Model Weights:** Download the fine-tuned models:
+    - `model_llama2` (7B llama2 chathf)
+    - `model_gemma` (2B gemma instruct)
+    - `model_mistral` (7B mistral instruct)
+3. **Data:** Ensure all required CSV files are in the correct directories as specified in the notebooks.
+
+## 🛠️ System Requirements
+
+- **Recommended:** GPU with at least 50GB VRAM for smooth performance.
+- **Alternative:** If GPU VRAM is limited, load models onto CPU (slower processing).
+
+**⚠️ Note:** This repository is designed for experienced users familiar with data analytics, machine learning, and model fine-tuning. 
+
+Let me know if you have any questions!
