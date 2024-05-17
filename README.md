@@ -1,4 +1,4 @@
-Data Analytics General Championship - RK Hall
+#Data Analytics General Championship - RK Hall
 This repository houses Jupyter notebooks and resources for advanced data analysis and machine learning tasks, including clustering, model fine-tuning, and a web application demo.
 
 Folder Structure
