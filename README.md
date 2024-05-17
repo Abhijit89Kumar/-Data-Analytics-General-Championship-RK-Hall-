@@ -38,6 +38,6 @@ This repository showcases cutting-edge data analysis and machine learning techni
 **⚠️ Note:** This repository is designed for experienced users familiar with data analytics, machine learning, and model fine-tuning. 
 
 ## Feel Free to read the Project Report for a detailed explaination.
-<iframe src="project_report_compressed.pdf" width="800" height="600"></iframe>
+[**View Project Report**]("project_report_compressed.pdf")
 
 
